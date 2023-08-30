@@ -14,3 +14,4 @@ context.lineWidth = 5;
 canvas.addEventListener("mousedown", (e) => {
   isDrawing = true;
   [lastX, lastY] = [
+    e.clientX - canvas.offsetLeft,
