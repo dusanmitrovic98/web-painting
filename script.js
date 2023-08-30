@@ -7,3 +7,4 @@ let isDrawing = false;
 let lastX = 0;
 let lastY = 0;
 
+context.lineJoin = "round";
