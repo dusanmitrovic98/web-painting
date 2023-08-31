@@ -38,3 +38,4 @@ function draw(e) {
     e.clientY - canvas.offsetTop,
   ];
 }
+
