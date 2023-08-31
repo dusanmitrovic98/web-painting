@@ -37,3 +37,4 @@ function draw(e) {
     e.clientX - canvas.offsetLeft,
     e.clientY - canvas.offsetTop,
   ];
+}
