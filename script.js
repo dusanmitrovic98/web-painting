@@ -43,3 +43,4 @@ document.getElementById("clearButton").addEventListener("click", () => {
   context.clearRect(0, 0, canvas.width, canvas.height);
 });
 
+document.getElementById("bgColorPicker").addEventListener("input", (e) => {
