@@ -29,3 +29,4 @@ function draw(e) {
   context.lineWidth = document.getElementById("brushSize").value;
 
   context.beginPath();
+  context.moveTo(lastX, lastY);
