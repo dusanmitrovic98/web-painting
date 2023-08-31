@@ -28,3 +28,4 @@ function draw(e) {
   context.strokeStyle = document.getElementById("colorPicker").value;
   context.lineWidth = document.getElementById("brushSize").value;
 
+  context.beginPath();
