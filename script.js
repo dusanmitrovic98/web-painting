@@ -45,3 +45,4 @@ document.getElementById("clearButton").addEventListener("click", () => {
 
 document.getElementById("bgColorPicker").addEventListener("input", (e) => {
   canvas.style.backgroundColor = e.target.value;
+});
