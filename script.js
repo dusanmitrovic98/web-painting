@@ -24,3 +24,4 @@ canvas.addEventListener("mouseup", () => (isDrawing = false));
 canvas.addEventListener("mouseout", () => (isDrawing = false));
 
 function draw(e) {
+  if (!isDrawing) return;
