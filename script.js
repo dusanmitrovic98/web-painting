@@ -34,3 +34,4 @@ function draw(e) {
   context.stroke();
 
   [lastX, lastY] = [
+    e.clientX - canvas.offsetLeft,
