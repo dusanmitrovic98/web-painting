@@ -30,3 +30,4 @@ function draw(e) {
 
   context.beginPath();
   context.moveTo(lastX, lastY);
+  context.lineTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop);
