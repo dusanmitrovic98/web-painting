@@ -18,3 +18,4 @@ canvas.addEventListener("mousedown", (e) => {
     e.clientY - canvas.offsetTop,
   ];
 });
+
