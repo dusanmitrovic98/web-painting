@@ -35,3 +35,4 @@ function draw(e) {
 
   [lastX, lastY] = [
     e.clientX - canvas.offsetLeft,
+    e.clientY - canvas.offsetTop,
