@@ -26,3 +26,4 @@ canvas.addEventListener("mouseout", () => (isDrawing = false));
 function draw(e) {
   if (!isDrawing) return;
   context.strokeStyle = document.getElementById("colorPicker").value;
+  context.lineWidth = document.getElementById("brushSize").value;
