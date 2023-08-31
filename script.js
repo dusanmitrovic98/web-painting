@@ -10,3 +10,4 @@ let lastY = 0;
 context.lineJoin = "round";
 context.lineCap = "round";
 context.lineWidth = 5;
+
