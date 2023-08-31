@@ -32,3 +32,4 @@ function draw(e) {
   context.moveTo(lastX, lastY);
   context.lineTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop);
   context.stroke();
+
