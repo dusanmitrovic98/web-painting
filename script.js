@@ -39,3 +39,4 @@ function draw(e) {
   ];
 }
 
+document.getElementById("clearButton").addEventListener("click", () => {
