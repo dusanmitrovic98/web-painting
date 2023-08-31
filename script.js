@@ -12,3 +12,4 @@ context.lineCap = "round";
 context.lineWidth = 5;
 
 canvas.addEventListener("mousedown", (e) => {
+  isDrawing = true;
