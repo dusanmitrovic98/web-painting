@@ -6,3 +6,4 @@ canvas.height = window.innerHeight;
 let isDrawing = false;
 let lastX = 0;
 let lastY = 0;
+
