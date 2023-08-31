@@ -47,3 +47,4 @@ document.getElementById("bgColorPicker").addEventListener("input", (e) => {
   canvas.style.backgroundColor = e.target.value;
 });
 
+undefined
