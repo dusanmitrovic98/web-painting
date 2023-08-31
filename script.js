@@ -19,3 +19,4 @@ canvas.addEventListener("mousedown", (e) => {
   ];
 });
 
+canvas.addEventListener("mousemove", draw);
